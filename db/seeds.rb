@@ -1,4 +1,8 @@
+LineItem.delete_all
+Cart.delete_all
 Product.delete_all
+
+
 Product.create!(title: "Rails, Angular, Postgres, and Bootstrap",
                 description: %{<p>
       <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
