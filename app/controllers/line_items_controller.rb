@@ -39,7 +39,7 @@ class LineItemsController < ApplicationController
         format.html { render :new }
         format.json { render json: @line_item.errors, status: :unprocessable_entity }
       end
-    end
+    end 
   end
 
   # PATCH/PUT /line_items/1
@@ -73,7 +73,7 @@ class LineItemsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to store_index_url }
       # binding.pry
-      format.js { render :action => 'destroy.js.erb'}
+      format.js   { @current_item = @line_item }
       format.json { head :no_content }
     end
   end

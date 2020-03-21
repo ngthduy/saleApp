@@ -1,7 +1,7 @@
 LineItem.delete_all
 Cart.delete_all
 Product.delete_all
-
+Order.delete_all
 
 Product.create!(title: "Rails, Angular, Postgres, and Bootstrap",
                 description: %{<p>
