@@ -1,0 +1,24 @@
+<h5>Dear <b><%= @order.name %></b></h5>
+<p>Thank you for your recent order from ngthduy Store. You ordered the following items:</p>
+<table style="border: 1px solid black; algin: center">
+  <tr style="border: 1px solid black">
+    <th>Tên Sách</th>
+    <th>Số Lượng</th>
+    <th>Tiền</th>
+  </tr>
+  <% @order.line_items.each do |line_item| -%>
+    <tr>
+      <td> <%= line_item.product.title%> </td>
+      <td> <%= line_item.quantity%> &times;</td>
+      <td class="item_price"><%= number_to_currency(line_item.total_price) %></td>
+    </tr>
+  <% end%>
+  <tr>
+    <td colspan="2"><b>Tổng Tiền</b></td>
+    <td>
+      <b><%= number_to_currency(@order.line_items.to_a.sum { |line_item| line_item.total_price }) %></tr>
+    </b>
+  </td>
+</table>
+<br>
+<p>ngthduy</p>

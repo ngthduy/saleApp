@@ -13,12 +13,12 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # Enable/disable caching. By default caching is disabled.
-  if Rails.root.join('tmp/caching-dev.txt').exist?
+  if Rails.root.join("tmp/caching-dev.txt").exist?
     config.action_controller.perform_caching = true
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
-      'Cache-Control' => "public, max-age=#{2.days.seconds.to_i}"
+      "Cache-Control" => "public, max-age=#{2.days.seconds.to_i}",
     }
   else
     config.action_controller.perform_caching = false
@@ -54,4 +54,16 @@ Rails.application.configure do
 
   # set stream - real time
   config.action_cable.disable_request_forgery_protection = true
+
+  # config smtp email
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: "smtp.hostinger.com",
+    port: 587,
+    domain: "hostinger.com",
+    authentication: "plain",
+    user_name: "ngthduy@ngthduy.com",
+    password: "thanhduy98",
+    enable_starttls_auto: true,
+  }
 end
