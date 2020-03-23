@@ -23,6 +23,11 @@
             <% end %>
           <% end %>
         </div>
+        <% if  session[:counter] >= 5 %>
+        <div class="visit">
+          <p><%=  pluralize(session[:counter], "visit") %>  </p>
+        </div>
+        <% end %>
         <ul>
           <li><%= link_to "Home", store_index_path %></li>
           <li><a href="http://www..../faq">Questions</a></li>
