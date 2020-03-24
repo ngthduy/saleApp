@@ -33,6 +33,7 @@ gem 'pry'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bcrypt'
+gem 'will_paginate'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

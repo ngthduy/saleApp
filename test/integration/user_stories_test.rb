@@ -39,8 +39,8 @@ class UserStoriesTest < ActionDispatch::IntegrationTest
       assert_equal start_order_count + 1, Order.count
       order = Order.last
 
-      assert_equal "Nguyễn Thành Duy", order.name
-      assert_equal "Bình Dương", order.address
+      assert_equal "Dave Thomas", order.name
+      assert_equal "123 The Street", order.address
       assert_equal "nguyenduy1708982gmail.com", order.email
       assert_equal "Check", order.pay_type
       assert_equal 1, order.line_items.size

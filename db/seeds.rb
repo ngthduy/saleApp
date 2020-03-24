@@ -45,3 +45,12 @@ Product.create!(title: "Ruby Performance Optimization",
       </p>},
                 image_url: "adrpo.jpg",
                 price: 46.00)
+
+Order.transaction do
+  (1..100).each do |i|
+    Order.create(:name => "Customer #{i}",
+                 :address => "#{i} Street",
+                 :email => "customer_#{i}@ngthduy.com",
+                 :pay_type => "Check")
+  end
+end

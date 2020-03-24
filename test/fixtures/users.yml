@@ -5,5 +5,5 @@ one:
   password_digest: <%= BCrypt::Password.create('secret') %>
 
 two:
-  name: susannah
-  password_digest: <%= BCrypt::Password.create('secret') %>
+  name: ngthduy
+  password_digest: <%= BCrypt::Password.create('1') %>
