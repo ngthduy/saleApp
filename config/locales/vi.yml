@@ -1,0 +1,57 @@
+vi:
+  layouts:
+    application:
+      title: "cửa hàng sách ngthduy"
+      home: "Trang Chủ"
+      questions: "Thắc Mắc"
+      news: "Tin Tức"
+      contact: "Liên Hệ"
+      login: "Đăng Nhập"
+  store:
+    index:
+      title_html: "Danh sách sản phẩm"
+      add_html: "Thêm vào Giỏ Hàng"
+  carts:
+    cart:
+      title: "Giỏ Hàng"
+      empty: "Xóa Giỏ Hàng"
+      checkout: "Thanh Toán"
+  number:
+    currency:
+      format:
+        unit: "VNĐ"
+        precision: 3
+        separator: "."
+        delimiter: ","
+        format: "%n&nbsp;%u"
+  orders:
+    new:
+      legend: "Vui lòng nhập thông tin thanh toán"
+    form:
+      name: "Tên"
+      address_html: "Địa Chỉ"
+      email: "E-mail"
+      pay_type: "Thanh Toán"
+      pay_prompt_html: "Phương thức thanh toán"
+      submit: "Xác nhận"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "chọn phương thức thanh toán"
+        blank: "không thể để trống"
+  errors:
+    template:
+      body: "Có vấn đề với các trường sau:"
+      header:
+        one: "1 lỗi đã ngăn% {model} này lưu"
+        other: "Lỗi% {Count} đã ngăn% {model} này lưu"
+  activerecord:
+    models:
+      order: "Đơn hàng"
+    attributes:
+      order:
+        address: "Địa chỉ"
+        name: "Tên"
+        email: "E-mail"
+        pay_type: "Phương thức thanh toán"
+  thanks: "Cảm ơn bạn đã đặt hàng"
