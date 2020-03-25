@@ -28,7 +28,7 @@
             <% end %>
           <% end %>
         </div>
-        <% unless  session[:counter] < 5 || session[:counter].nil? %>
+        <% if  session[:counter] != nil && session[:counter] >= 5 %>
           <div class="visit">
             <p><%=  pluralize(session[:counter], "visit") %>  </p>
           </div>
