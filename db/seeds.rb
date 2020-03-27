@@ -2,9 +2,9 @@ LineItem.delete_all
 Cart.delete_all
 Product.delete_all
 Order.delete_all
-
-Product.create!(title: "Rails, Angular, Postgres, and Bootstrap",
-                description: %{<p>
+(1..10).each do |i|
+  Product.create!(title: "Rails, Angular, Postgres, and Bootstrap #{i}",
+                  description: %{<p>
       <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
       As a Rails developer, you care about user experience and performance,
       but you also want simple and maintainable code. Achieve all that by
@@ -15,11 +15,11 @@ Product.create!(title: "Rails, Angular, Postgres, and Bootstrap",
       and learn to use these technologies effectively in a Ruby on Rails
       environment.
       </p>},
-                image_url: "dcbang.jpg",
-                price: 45.00)
-# . . .
-Product.create!(title: "Seven Mobile Apps in Seven Weeks",
-                description: %{<p>
+                  image_url: "dcbang.jpg",
+                  price: 45.00)
+  # . . .
+  Product.create!(title: "Seven Mobile Apps in Seven Weeks #{i}",
+                  description: %{<p>
       <em>Native Apps, Multiple Platforms</em>
       Answer the question “Can we build this for ALL the devices?” with a
       resounding YES. This book will help you get there with a real-world
@@ -27,12 +27,12 @@ Product.create!(title: "Seven Mobile Apps in Seven Weeks",
       experienced developer needing to expand your options. Plus, you’ll find
       out which cross-platform solution makes the most sense for your needs.
       </p>},
-                image_url: "7apps.jpg",
-                price: 26.00)
-# . . .
+                  image_url: "7apps.jpg",
+                  price: 26.00)
+  # . . .
 
-Product.create!(title: "Ruby Performance Optimization",
-                description: %{<p>
+  Product.create!(title: "Ruby Performance Optimization #{i}",
+                  description: %{<p>
       <em>Why Ruby Is Slow, and How to Fix It</em> 
       You don’t have to accept slow Ruby or Rails performance. In this
       comprehensive guide to Ruby optimization, you’ll learn how to write
@@ -43,9 +43,9 @@ Product.create!(title: "Ruby Performance Optimization",
       all those “hard” things aren’t so difficult after all, and your code
       will run orders of magnitude faster.
       </p>},
-                image_url: "adrpo.jpg",
-                price: 46.00)
-
+                  image_url: "adrpo.jpg",
+                  price: 46.00)
+end
 Order.transaction do
   (1..100).each do |i|
     Order.create(:name => "Customer #{i}",
