@@ -1,7 +1,14 @@
-<%= form_tag store_index_path, method: :get do %>
-  <%= text_field_tag 'term', params[:term], placeholder: "Enter name or description book" %>
-  <%= submit_tag 'Search' %>
-<% end %>
+<%= text_field_tag 'search', params[:q], placeholder: "Enter name or description book" %>
+<%= javascript_tag "
+$('#search').change(
+  function(){ 
+    title = $('#search').val();
+    $.ajax({
+        url: 'store/search',
+        type: 'POST',
+        data: {title: title}
+    })
+});" %>
 <br>
 <p id="notice"><%= notice %></p>
 <h1><%= t('.title_html') %></h1>
