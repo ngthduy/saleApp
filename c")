@@ -1,0 +1,54 @@
+=> [[1;30m#<Product:0x00007f759042ebd8[0m
+  [35mid[0m: [1;34m980190976[0m,
+  [35mtitle[0m: [31m[1;31m"[0m[31mRails, Angular, Postgres, and Bootstrap 2[1;31m"[0m[31m[0m,
+  [35mdescription[0m:
+   [31m[1;31m"[0m[31m<p>[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      As a Rails developer, you care about user experience and performance,[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      but you also want simple and maintainable code. Achieve all that by[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      embracing the full stack of web development, from styling with[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      Bootstrap, building an interactive user interface with AngularJS, to[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      storing data quickly and reliably in PostgreSQL. Take a holistic view of[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      full-stack development to create usable, high-performing applications,[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      and learn to use these technologies effectively in a Ruby on Rails[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      environment.[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      </p>[1;31m"[0m[31m[0m,
+  [35mimage_url[0m: [31m[1;31m"[0m[31mdcbang.jpg[1;31m"[0m[31m[0m,
+  [35mprice[0m: [1;35m0.45e2[0m,
+  [35mcreated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m,
+  [35mupdated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m>,
+ [1;30m#<Product:0x00007f759042ea98[0m
+  [35mid[0m: [1;34m980190977[0m,
+  [35mtitle[0m: [31m[1;31m"[0m[31mSeven Mobile Apps in Seven Weeks 2[1;31m"[0m[31m[0m,
+  [35mdescription[0m:
+   [31m[1;31m"[0m[31m<p>[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      <em>Native Apps, Multiple Platforms</em>[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      Answer the question “Can we build this for ALL the devices?” with a[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      resounding YES. This book will help you get there with a real-world[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      introduction to seven platforms, whether you’re new to mobile or an[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      experienced developer needing to expand your options. Plus, you’ll find[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      out which cross-platform solution makes the most sense for your needs.[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      </p>[1;31m"[0m[31m[0m,
+  [35mimage_url[0m: [31m[1;31m"[0m[31m7apps.jpg[1;31m"[0m[31m[0m,
+  [35mprice[0m: [1;35m0.26e2[0m,
+  [35mcreated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m,
+  [35mupdated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m>,
+ [1;30m#<Product:0x00007f759042e958[0m
+  [35mid[0m: [1;34m980190978[0m,
+  [35mtitle[0m: [31m[1;31m"[0m[31mRuby Performance Optimization 2[1;31m"[0m[31m[0m,
+  [35mdescription[0m:
+   [31m[1;31m"[0m[31m<p>[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      <em>Why Ruby Is Slow, and How to Fix It</em> [1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      You don’t have to accept slow Ruby or Rails performance. In this[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      comprehensive guide to Ruby optimization, you’ll learn how to write[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      faster Ruby code—but that’s just the beginning. See exactly what makes[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      through perils of memory and CPU optimization, profiling, measuring,[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      performance testing, garbage collection, and tuning. You’ll find that[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      all those “hard” things aren’t so difficult after all, and your code[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      will run orders of magnitude faster.[1;35m\n[0m[31m[1;31m"[0m[31m[0m +
+   [31m[1;31m"[0m[31m      </p>[1;31m"[0m[31m[0m,
+  [35mimage_url[0m: [31m[1;31m"[0m[31madrpo.jpg[1;31m"[0m[31m[0m,
+  [35mprice[0m: [1;35m0.46e2[0m,
+  [35mcreated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m,
+  [35mupdated_at[0m: [1;34;4mFri[0m, [1;34m27[0m [1;34;4mMar[0m [1;34m2020[0m [1;34m08[0m:[1;34m22[0m:[1;34m03[0m +[1;34m07[0m +[1;34m07[0m:[1;34m00[0m>]

@@ -1,3 +1,15 @@
+<%= text_field_tag 'search', params[:q], placeholder: "Enter name or description book" %>
+<%= javascript_tag "
+$('#search').change(
+  function(){ 
+    title = $('#search').val();
+    $.ajax({
+        url: 'store/search',
+        type: 'POST',
+        data: {title: title}
+    })
+});" %>
+<br>
 <p id="notice"><%= notice %></p>
 <h1><%= t('.title_html') %></h1>
 <% cache @products do %>
@@ -15,3 +27,4 @@
     <% end %>
   <% end %>
 <% end %>
+<p><%= will_paginate @products, :previous_label => 'Trở Về', :next_label => 'Tiếp Theo'  %></p>

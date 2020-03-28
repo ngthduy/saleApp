@@ -95,6 +95,9 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pg (0.21.0)
+    pg_search (2.3.0)
+      activerecord (>= 4.2)
+      activesupport (>= 4.2)
     pry (0.9.6)
       coderay (>= 0.9.8)
       method_source (>= 0.6.5)
@@ -198,6 +201,7 @@ DEPENDENCIES
   jquery-ui-rails
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
+  pg_search
   pry
   puma (~> 3.7)
   rails (~> 5.1.4)

@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     post "login" => :create
     delete "logout" => :destroy
   end
-
+  post "store/search" => "store#search"
   resources :users
 
   resources :products do
