@@ -1,4 +1,4 @@
-<%= text_field_tag 'search', params[:q], placeholder: "Enter name or description book" %>
+<%= text_field_tag 'search', params[:q], placeholder: "Enter name or description book" , value: @search%>
 <%= javascript_tag "
 $('#search').change(
   function(){ 
@@ -6,12 +6,19 @@ $('#search').change(
     $.ajax({
         url: 'store/search',
         type: 'POST',
-        data: {title: title}
-    })
+        data: {title: title},
+        
+    });
+    
 });" %>
 <br>
 <p id="notice"><%= notice %></p>
 <h1><%= t('.title_html') %></h1>
+<% unless @search.nil? %>
+  <% if @products.empty?%>
+    <p id="notice">Kết Quả "<%= @search%>" Không Tìm Thấý</p>
+  <% end%>
+<% end %>
 <% cache @products do %>
   <% @products.each do |product| %>
     <% cache product do %>
