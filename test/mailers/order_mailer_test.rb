@@ -5,7 +5,7 @@ class OrderMailerTest < ActionMailer::TestCase
     mail = OrderMailer.received
     assert_equal "Pragmatic Store Order Confirmation", mail.subject
     assert_equal ["ngthduy@ngthduy.com"], mail.to
-    assert_equal ["nguyenduy170898@gmail.com"], mail.from
+    assert_equal ["dave@example.org"], mail.from
     assert_match "Hi", mail.body.encoded
   end
 
@@ -13,7 +13,7 @@ class OrderMailerTest < ActionMailer::TestCase
     mail = OrderMailer.shipped
     assert_equal "Pragmatic Store Order Shipped", mail.subject
     assert_equal ["ngthduy@ngthduy.com"], mail.to
-    assert_equal ["nguyenduy170898@gmail.com"], mail.from
+    assert_equal ["dave@example.org"], mail.from
     assert_match "Hi", mail.body.encoded
   end
 end
