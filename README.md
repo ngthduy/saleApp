@@ -37,12 +37,13 @@ if not have to install the correct version
 ```
 
 ### Initialize the database
-db:create -> create database
-db:migrate -> create table and data structure
-db:seed -> create seed data
 ```php
     $ rails db:create db:migrate db:seed
 ``` 
+* db:create     -> create database
+* db:migrate    -> create table and data structure
+* db:seed       -> create seed data
+
 ### Run server
 ```php
     $ rails s
