@@ -1,25 +1,53 @@
-# README
+﻿# Version
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.7.0
 
-Things you may want to cover:
+* Rails version: 5.1.4
 
-* Ruby version
+* Database management system: postgres
 
-* System dependencies
+* Database name: depot
 
-* Configuration
+# Install and Deloyment
 
-* Database creation
+### Clone repository
 
-* Database initialization
+```php
+    $ git clone https://github.com/ngthduy/saleapp.git
+    $ cd saleapp
+```
+### Check version
+User ruby version 2.7.0 and rails version 5.1.4
+```php
+    $ ruby -v
+    $ rails -v
+```
+if not have to install the correct version
+```php
+    $ gem install rails -v 5.1.4
+```
 
-* How to run the test suite
+### Install dependencies
+```php
+    gem install bundler
+```
+### Install & update Gemfile
+```php
+    $ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# saleapp
+### Initialize the database
+db:create -> create database
+db:migrate -> create table and data structure
+db:seed -> create seed data
+```php
+    $ rails db:create db:migrate db:seed
+``` 
+### Run server
+```php
+    $ rails s
+```
+Run on browser
+```php
+    http://localhost:3000/
+```
