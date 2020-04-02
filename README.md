@@ -6,7 +6,7 @@
 
 * Database management system: postgres
 
-* Database name: depot
+* Database name: saleapp
 
 # Install and Deloyment
 
