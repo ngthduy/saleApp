@@ -2,6 +2,8 @@ LineItem.delete_all
 Cart.delete_all
 Product.delete_all
 Order.delete_all
+User.delete_all
+
 (1..10).each do |i|
   Product.create!(title: "Rails, Angular, Postgres, and Bootstrap #{i}",
                   description: %{<p>
@@ -54,3 +56,4 @@ Order.transaction do
                  :pay_type => "Check")
   end
 end
+User.create!(name: "admin", password_digest: BCrypt::Password.create("admin"))

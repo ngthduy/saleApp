@@ -48,7 +48,9 @@ if not have to install the correct version
 ```php
     $ rails s
 ```
-Run on browser
+* Run on browser
 ```php
     http://localhost:3000/
 ```
+* User login
+username: admin / password: admin
